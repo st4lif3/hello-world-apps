@@ -1,60 +1,38 @@
-[<img width="134" src="https://vk.com/images/apps/mini_apps/vk_mini_apps_logo.svg">](https://vk.com/services)
+# 2048
+A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
 
-# Create VK Mini App [![npm][npm]][npm-url] [![deps][deps]][deps-url]
+Made just for fun. [Play it here!](http://gabrielecirulli.github.io/2048/)
 
-## How to use
+The official app can also be found on the [Play Store](https://play.google.com/store/apps/details?id=com.gabrielecirulli.app2048) and [App Store!](https://itunes.apple.com/us/app/2048-by-gabriele-cirulli/id868076805)
 
-### With NPX
+### Contributions
 
-```bash
-npx @vkontakte/create-vk-mini-app [app-directory-name] [options]
-```
-[NPX](https://github.com/npm/npx) allows you to always use the **latest** version of the package without a global installation.
+[Anna Harren](https://github.com/iirelu/) and [sigod](https://github.com/sigod) are maintainers for this repository.
 
-### With installing the package globally
-Install the package globally via yarn
-```bash
-yarn global add @vkontakte/create-vk-mini-app
-```
-...or npm
-```bash
-npm install --global @vkontakte/create-vk-mini-app
-```
+Other notable contributors:
 
-and use as follows
+ - [TimPetricola](https://github.com/TimPetricola) added best score storage
+ - [chrisprice](https://github.com/chrisprice) added custom code for swipe handling on mobile
+ - [marcingajda](https://github.com/marcingajda) made swipes work on Windows Phone
+ - [mgarciaisaia](https://github.com/mgarciaisaia) added support for Android 2.3
 
-```bash
-create-vk-mini-app [app-directory-name] [options]
-```
+Many thanks to [rayhaanj](https://github.com/rayhaanj), [Mechazawa](https://github.com/Mechazawa), [grant](https://github.com/grant), [remram44](https://github.com/remram44) and [ghoullier](https://github.com/ghoullier) for the many other good contributions.
 
-This way is less recommended because you will have to update the package yourself.
+### Screenshot
 
-### Options
-Without `--zeit` and `--surge` options 
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/1175750/8614312/280e5dc2-26f1-11e5-9f1f-5891c3ca8b26.png" alt="Screenshot"/>
+</p>
 
-#### `--zeit`
-Vercel (Zeit) deploy
+That screenshot is fake, by the way. I never reached 2048 :smile:
 
-Firstly, you have to create Vercel account and connect it with your GitHub profile on [vercel.com](https://vercel.com)
+## Contributing
+Changes and improvements are more than welcome! Feel free to fork and open a pull request. Please make your changes in a specific branch and request to pull into `master`! If you can, please make sure the game fully works before sending the PR, as that will help speed up the process.
 
-#### `--surge <surge-domain>`
-Surge deploy
+You can find the same information in the [contributing guide.](https://github.com/gabrielecirulli/2048/blob/master/CONTRIBUTING.md)
 
-Firstly, you have to create Surge account and Surge-domain on [surge.sh](https://surge.sh)
+## License
+2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
 
-#### `--help`
-Prints the synopsis and a list of options
-
-## How to start work with app
-
-Go to created folder and run:  
-`yarn start` or  `npm start` to start dev server with hot reload on `localhost:10888`.
-
-`yarn run build` or `npm run build` to build production bundle, with tree-shaking, uglify and all this modern fancy stuff.
-
-[npm]: https://img.shields.io/npm/v/@vkontakte/create-vk-mini-app.svg
-[npm-url]: https://npmjs.com/package/@vkontakte/create-vk-mini-app
-
-[deps]: https://img.shields.io/david/vkcom/create-vk-mini-app.svg
-[deps-url]: https://david-dm.org/vkcom/create-vk-mini-app
-# hello-world-apps
+## Donations
+I made this in my spare time, and it's hosted on GitHub (which means I don't have any hosting costs), but if you enjoyed the game and feel like buying me coffee, you can donate at my BTC address: `1Ec6onfsQmoP9kkL3zkpB6c5sA4PVcXU2i`. Thank you very much!
